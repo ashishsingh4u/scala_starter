@@ -1,0 +1,7 @@
+# compiled output
+/target
+
+# IDE and editors
+/.idea
+.DS_Store
+*.iml
