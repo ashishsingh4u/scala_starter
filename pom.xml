@@ -9,6 +9,7 @@
         <scala.version>2.11.12</scala.version>
         <scala.compat.version>2.11</scala.compat.version>
         <spark.version>2.3.0.2.6.5.0-292</spark.version>
+        <maven.scala.version>2.15.2</maven.scala.version>
     </properties>
 
     <repositories>
@@ -100,6 +101,7 @@
             <plugin>
                 <groupId>org.scala-tools</groupId>
                 <artifactId>maven-scala-plugin</artifactId>
+                <version>${maven.scala.version}</version>
                 <executions>
                     <execution>
                         <goals>
@@ -122,6 +124,7 @@
             <plugin>
                 <groupId>org.scala-tools</groupId>
                 <artifactId>maven-scala-plugin</artifactId>
+                <version>${maven.scala.version}</version>
                 <configuration>
                     <scalaVersion>${scala.version}</scalaVersion>
                 </configuration>
