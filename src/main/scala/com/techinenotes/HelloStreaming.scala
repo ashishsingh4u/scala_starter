@@ -1,6 +1,6 @@
-package example
+package com.techinenotes;
 
-import org.apache.spark.sql.streaming.{ProcessingTime, Trigger}
+import org.apache.spark.sql.streaming.Trigger;
 import org.apache.spark.sql.{SaveMode, SparkSession}
 
 object HelloStreaming extends StreamingDriver {
